@@ -8,6 +8,8 @@ import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
+    var counter = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -42,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    var counter = 0
+
 
 
 }
